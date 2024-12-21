@@ -16,12 +16,12 @@ def aaa():
             cnt += 1
 
         # Если больше
-        if num_player > number_abcd:
+        elif num_player > number_abcd:
             print("Твое число больше загаданного")
             cnt += 1
 
         # Если равно
-        if num_player == number_abcd:
+        elif num_player == number_abcd:
             print("Твое число равно загаданному, поздравляю!")
             break
 
